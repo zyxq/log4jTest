@@ -1,0 +1,24 @@
+version 'unspecified'
+
+apply plugin: 'java'
+
+
+compileJava {
+    sourceCompatibility=1.8
+    targetCompatibility=1.8
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/javax.jms/jms
+    compile group: 'javax.jms', name: 'jms', version: '1.1'
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    compile group: 'javax.mail', name: 'mail', version: '1.4.7'
+
+
+}

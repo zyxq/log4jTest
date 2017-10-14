@@ -1,0 +1,10 @@
+bin
+gen
+target
+.gradle
+build
+*.iml
+src/main/resources/jdbc.properties
+src/main/resources/ec_key.pem
+*.ipr
+*.iws
